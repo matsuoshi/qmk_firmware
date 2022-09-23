@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, KC_NO,   KC_NO,   KC_7,    KC_8,    KC_9,
       _______, KC_NO,   KC_COLN, KC_4,    KC_5,    KC_6,
       _______, KC_NO,   KC_NO,   KC_1,    KC_2,    KC_3,
-      _______, _______, _______, KC_DOT,           KC_0
+      _______, _______, _______, _______,          KC_0
   ),
 };
 // clang-format on
