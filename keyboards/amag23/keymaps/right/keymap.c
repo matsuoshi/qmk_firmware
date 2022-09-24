@@ -13,9 +13,9 @@ enum layer_names {
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT_all( /* Base Layer */
-      KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_MINS,
-      KC_H,    KC_J,    KC_K,    KC_L,    LT(FN2,KC_SCLN), KC_QUOT,
-      KC_N,    KC_M,    KC_COMM, KC_DOT,  LT(FN1,KC_SLSH), KC_ENT,
+      KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
+      KC_H,    KC_J,    KC_K,    KC_L,    LT(FN2,KC_MINS), KC_ENT,
+      KC_N,    KC_M,    KC_COMM, KC_DOT,  LT(FN1,KC_SLSH), KC_RSFT,
       KC_RALT, KC_LEFT, KC_DOWN, KC_UP,            KC_RGHT
   ),
   [FN1] = LAYOUT_all( /* Function Layer */
